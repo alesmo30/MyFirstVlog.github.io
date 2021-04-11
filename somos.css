@@ -1,0 +1,58 @@
+header
+{   
+    margin-left: 50%;
+   font-style: normal;
+    font-weight: bolder;
+    font-size: xx-large; 
+    color:rgb(255,255,255);
+    
+}
+body
+{    
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(paperBG.jpg);
+    background-repeat: no-repeat;
+}
+.mision
+{
+    width : 50%;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+
+    margin-top: 30px;
+    margin-left: 25%;
+    background-color: paleturquoise;
+    border : solid;
+    border-radius: 8px;
+    position: relative;
+    height: fit-content;
+    opacity: 0.5;
+}
+p
+{
+    margin: 20px 20px 20px 20px;
+}
+h2
+{
+    margin: 0px 0px 0px 0px;
+    margin-top: 5px;
+    margin-left: 45%;
+    font-size: x-large;
+}
+#regreso{
+    background-color: paleturquoise;  
+    padding: 12px;
+    margin-top: 25px;
+    width: 10%;
+    font-size: 15px;     
+    cursor: pointer;
+    border-radius: 20px;
+    border: solid;
+    position: absolute;
+    left: 45%;
+    opacity: 0.7;
+}
+#regreso:hover{
+    cursor:-moz-grab;
+    background-color: rgb(122, 209, 235);
+}

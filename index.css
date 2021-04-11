@@ -1,0 +1,96 @@
+
+.menu
+{
+    width : 100%;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+    
+    
+    margin-top: 30px;
+    background-color: paleturquoise;
+    border : solid;
+    border-radius: 8px;
+    position: relative;
+    
+}
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:lightcyan;
+}
+
+nav ul li 
+{
+    float: left;
+    list-style-type:none;
+    margin-left: 20px;
+}
+
+header
+{   
+    margin-left: 50%;
+   font-style: normal;
+    font-weight: bolder;
+    font-size: xx-large; 
+    
+}
+a{
+    color: rgb(51, 57, 210);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(164, 166, 231);
+    cursor:-moz-grab;
+    text-decoration: none;
+}
+.historiaLoca
+{
+    float: left;
+    width : fit-content;
+    height:fit-content;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    
+    margin-top: 20px;
+    background-color: paleturquoise;
+    border : dotted;
+    border-radius: 20px;
+    
+}
+.historiaLoca2
+{
+    float: left;
+    width : fit-content;
+    height: fit-content;
+    
+    margin: 0px 0px 0px 0px;
+    
+    display:inline;
+    
+    
+    margin-top: 20px;
+    background-color: paleturquoise;
+    border : dotted;
+    border-radius: 20px;
+}
+h4
+{
+    margin: 0px 0px 0px 0px;
+    margin-top: 5px;
+    margin-left: 45%;
+    font-size: x-large;
+    
+}
+p
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#mapa
+{
+    align-content: center;
+    
+    margin-left: 60px;
+    
+    
+}

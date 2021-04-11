@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactenos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="contacto.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="k.png">
+</head>
+<body>
+
+    <header>
+        Contactanos Digitando Los Siguientes Campos
+    </header>
+
+    <div class="container">  <!-- esto es para separa html del que se tiene-->
+
+        <ul>
+            <form action="/action_page.php">
+            <li>
+                <label>Numero de Indentificación</label>
+                <input type="tel" name = "cedula" id = "cedula" placeholder="Numero de Indentificación" required/>
+            </li>
+             <li>
+                <label>Nombres y Apellidos</label>
+                <input type="text" name = "nombreApe" id = "nombreApe" placeholder="Nombres y Apellidos" required/>               
+            </li>
+             <li>
+                <label>Celular</label>
+                <input type="tel" name = "Celular" id = "Celular" placeholder="Celular" required/>                
+            </li>
+             <li>
+                <label>Email</label>
+                <input type="email" name = "email" id = "email" placeholder="Email" required/> 
+            </li>
+            <li>
+                <label>Area/Operacion</label>
+                <input type="text" name = "operacion" id = "operacion" placeholder="Area/Operacion" required/>      
+            </li>
+            <li>
+                <label>Cargo</label>
+                <input type="text" name = "cargo" id = "cargo" placeholder="Cargo" required/>     
+            </li>
+            <li>
+                <label>Si necesitas contactarte telefonicamente, indicanos
+                    donde te encuentras?
+                </label>
+                <select name = "pais" id = "pais" required> 
+                    <option disabled selected hidden>Seleccione</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    
+                </select>
+                
+                
+            </li>
+            <li>
+                <label>Horario en el que te podemos contactar</label>
+                <input type="datetime" name = "time" id = "time" placeholder="Horario en el que te podemos contactar" required/>     
+            </li>
+            <li style="margin-top: 15px; ">               
+                <a href="index.html"><button style="cursor: pointer;
+                    border-radius: 20px;
+                    border: solid;"id=regreso type="button">Regresar</button></a>
+            </li>
+
+            
+            </form>
+        </ul>
+
+          <!--  <table style="width:100%">
+
+                <tr>
+                    <th>Numero de Indentificación</th>
+                    <th>Nombres y Apellidos</th>                    
+                </tr>
+                <tr>
+                    <td><input type="tel" name = "cedula" id = "cedula" placeholder="Digite la Cedula" required/></td>
+                    <td> <input type="text" name = "apellido" id = "apellido" placeholder="Apellido aqui" required/></td>                    
+                </tr>
+
+            </table> 
+        
+            <label for="cc">Numero de Indentificación</label>
+            
+
+            
+            <label for="nombreApe"> Nombres y Apellidos</label>
+            
+            <input type="text" name = "apellido" id = "apellido" placeholder="Apellido aqui" required/>
+            <br>
+            <label for="pais">Escoge tu país</label>
+            
+            <select name = "pais" id = "pais" required> 
+                <option disabled selected hidden>Seleccione</option>
+                <option>Colombia</option>
+                <option>Costa Rica</option>
+                <option>Brasil</option>
+                
+            </select>
+            
+            <button type="submit">Enviar Datos</button>
+            -->
+
+        </form>
+        
+    </div>
+
+    
+</body>
+</html>
