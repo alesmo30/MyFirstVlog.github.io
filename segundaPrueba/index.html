@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konecta</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        Konecta Prueba 2
+    </header>
+    <div class = "menu">
+        <nav>
+            <ul>
+                
+                <li><a href="index.html" >Inicio</a></li>
+                
+                
+                <li><a href="Calculadora.html" >Calculadora</a></li>                
+                
+            </ul>
+        </nav>
+    </div>
+
+    <div class="menuContacto">
+        <form >
+            <div class="row">
+                <div class="column ">
+                    <label class="required" for="id_number"> Numero de Indentifiación</label>
+                    <br>
+                    <input  type="tel" name="id_number" id="id_number" 
+                    placeholder="Numero de Indentifiación">
+                </div>
+                <div class="column ">
+                    <label class="required" for="fullName"> Nombres y Apellidos</label>
+                    <br>
+                    <input type="text" name="fullName" id="fullName" 
+                    placeholder="Nombres y Apellidos">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column ">
+                    <label class="required" for="cel_number">Celular</label>
+                    <br>
+                    <input  type="tel" name="cel_number" id="cel_number" 
+                    placeholder="Celular">
+                </div>
+                <div class="column ">
+                    <label class="required" for="email">Email</label>
+                    <br>
+                    <input  type="email" name="email" id="email" 
+                    placeholder="Email">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column ">
+                    <label class="required" for="areaOp">Área/Operación</label>
+                    <br>
+                    <input  type="text" name="areaOp" id="areaOp" 
+                    placeholder="Área/Operación">
+                </div>
+                <div class="column ">
+                    <label class="required" for="Cargo">Cargo</label>
+                    <br>
+                    <input  type="text" name="Cargo" id="Cargo" 
+                    placeholder="Cargo">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column ">
+                    <label class="required" for="contacto">Si necesitas contactarte telefonicamente, indicanos
+                        donde te encuentras?</label>
+                    <br>
+                    <select name = "contacto" id = "contacto" > 
+                        <option disabled selected hidden>Seleccione</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>                        
+                    </select>
+                </div>
+                <div class="column ">
+                    <label class="required" for="horario">Horario en el que te podemos contactar</label>
+                    <br>
+                    <input type="text" name="horario" id="horario" 
+                    placeholder="Cargo">
+                </div>
+            </div>
+            <div class="submitDiv">
+            <button style="cursor: pointer;
+                border-radius: 20px; align-content: center; margin-left:auto; margin-right: auto;margin-top: 15px;
+                border: solid; font-size:large;"id=submit type="submit">Enviar</button>
+            </div>
+            <div class="cajitaComentarios" id="cajitaComentarios">
+
+            </div>
+
+        </form>
+
+        <script src="index.js"></script>
+
+    </div>
+
+    
+
+
+
+
+
+</body>
+</html>
